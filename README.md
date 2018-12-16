@@ -11,11 +11,6 @@ The main advantage of this project is it does not require any internet connectio
 
 The camera mounted on the stick captures the video(livestream) and sends it to Raspberry PI for processing.RPi uses OPENCV(HaarCascades) to detect the objects in the frame.It also calculates the **distance and speed of the detected objects along with the direction of their movement**.Once done with the calculations it passes all the information to the user via **voice feedback**.
 
-## TO-DO's
-* Code cleanup
-* Optimizing the code to reduce frame drops.
-* Adding more classes of objects to detection.
-
 ## Instructions
 * Clone this repository to your raspberry pi to  /home/pi .  
 * You will need to install some basic libraries on your rpi for this project to work.  
