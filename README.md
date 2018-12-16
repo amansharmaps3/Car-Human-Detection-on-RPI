@@ -1,11 +1,11 @@
-# **Smart Stick For Blind Using OPENCV on RPI**
+# **Project Using OPENCV on RPI**
 
 
 ## Description
 
 This projects helps blind people to get aware of their surroundings.It uses a simple webcam attached to a Raspberry Pi which does object detection using OPENCV HaarCascades to do so.Presently it is able to detect only persons and cars but can be implemented to detect other classes of objects also.It also tells the **distance** of detected object along with it's **speed** (also tells whether the object is moving towards or away from the user) that too only through camera.Once Detected, it tells the person regarding the object via voice feedback. 
 
-The main advantage of this project is it does not require any internet connection and also is very handy(doesn't require bulky hardware).
+USES : Can be used in a smart stick for Blind.
 
 ## Working
 
